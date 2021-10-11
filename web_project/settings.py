@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-om2v6hsf7f-y_%q8i=a&l*)_myxmo)hy-sas5djk&v7@8&9mo3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://postgresdjangoteste.herokuapp.com/", "127.0.0.1"]
 
 
 # Application definition
